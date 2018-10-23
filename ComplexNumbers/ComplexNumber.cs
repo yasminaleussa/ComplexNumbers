@@ -38,6 +38,11 @@ namespace ComplexNumbers
             return Math.Sqrt( (Math.Pow(realPart ,2)) + (Math.Pow (immaginaryPart,2)) );
         }
 
-       
+        public void Add(ComplexNumber c2)
+        {
+            realPart += c2.GetRealPart();
+            immaginaryPart += c2.GetImmaginaryPart();
+
+        }
     }
 }

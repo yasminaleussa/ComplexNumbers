@@ -19,7 +19,10 @@ namespace ComplexNumbers
             Console.WriteLine(cp.GetMagnitude());
 
 
-           
+            ComplexNumber cp2 = new ComplexNumber(1, -1);
+            cp.Add(cp2);
+            Console.Write("After adding: ");
+            Console.WriteLine(cp.ToString());
 
 
             Console.Read();
